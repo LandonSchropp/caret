@@ -12,7 +12,7 @@ caretPosition = $("textarea").caret();
 caretPosition = $("textarea").caret(newPosition);
 ```
 
-*Caret* also follows the jQuery convention of returning the `this` object so calls may be chained:
+*Caret* also follows the jQuery convention of returning the `this` object for the setter so calls may be chained:
 
 ``` javascript
 // move the caret and set the color to blue
