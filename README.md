@@ -9,7 +9,7 @@
 caretPosition = $("textarea").caret();
 
 // set the caret position
-caretPosition = $("textarea").caret(newPosition);
+$("textarea").caret(newPosition);
 ```
 
 *Caret* also follows the jQuery convention of returning the `this` object for the setter so calls may be chained:
