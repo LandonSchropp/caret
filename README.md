@@ -19,4 +19,4 @@ $("textarea").caret(newPosition);
 $("textarea").caret(newPosition).css("color: blue;");
 ``` 
 
-*Caret* has been testing in Chrome, Firefox, Safari and Internet Explorer 8 and 9. More testing and bugfixes are welcome.
+*Caret* has been tested in Chrome, Firefox, Safari and Internet Explorer 8 and 9. Testing and bugfixes are welcome.
