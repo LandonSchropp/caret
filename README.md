@@ -1,6 +1,6 @@
 # Caret
 
-*Caret* is a small jQuery plugin that gets and sets the caret position for an HTML element. It uses the same caret position regarless of platform or browser.
+*Caret* is a small jQuery plugin that gets and sets the caret position for an HTML element.
 
 *Caret* may be used as follows:
 
