@@ -6,7 +6,7 @@
 
 ``` javascript
 // get the caret position
-caretPosition = $("textarea").caret();
+var caretPosition = $("textarea").caret();
 
 // set the caret position
 $("textarea").caret(newPosition);
