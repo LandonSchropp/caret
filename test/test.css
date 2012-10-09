@@ -1,0 +1,42 @@
+html, body
+{
+  font-family: sans-serif;
+  color: #333;
+}
+
+html, body, textarea, input, button
+{
+  line-height: 25px;
+  font-size: 20px;
+  text-align: center;
+}
+
+textarea
+{
+  resize: none;
+  width: 400px;
+  height: 475px;
+  color: #333;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: sans-serif;
+}
+
+button
+{
+  width: 100px;
+}
+
+#container
+{
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1
+{
+  line-height: 1em;
+  font-size: 50px;
+  margin: 20px;
+  font-family: 'Lobster', cursive;
+}
