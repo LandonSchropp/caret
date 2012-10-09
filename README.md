@@ -1,6 +1,6 @@
 # Caret
 
-*Caret* is a small jQuery plugin that gets and sets the caret position for an HTML element.
+*Caret* is a small jQuery plugin that gets and sets the caret position for an HTML element. It uses the same caret position regarless of platform or browser.
 
 *Caret* may be used as follows:
 
@@ -18,3 +18,5 @@ $("textarea").caret(newPosition);
 // move the caret and set the color to blue
 $("textarea").caret(newPosition).css("color: blue;");
 ``` 
+
+*Caret* has been testing in Chrome, Firefox, Safari and Internet Explorer 8 and 9. More testing and bugfixes are welcome.
