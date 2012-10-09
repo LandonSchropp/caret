@@ -12,11 +12,11 @@ var caretPosition = $("textarea").caret();
 $("textarea").caret(newPosition);
 ```
 
-*Caret* also follows the jQuery convention of returning the `this` object for the setter so calls can be chained:
+*Caret* follows the jQuery convention of returning the `this` object for the setter so calls can be chained:
 
 ``` javascript
 // move the caret and set the color to blue
 $("textarea").caret(newPosition).css("color: blue;");
 ``` 
 
-*Caret* has been tested in Chrome, Firefox, Safari and Internet Explorer 8 and 9. Testing and bugfixes are welcome.
+*Caret* has been tested in Chrome, Firefox, Safari and Internet Explorer 8 and 9.
