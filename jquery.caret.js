@@ -1,4 +1,5 @@
-(function($) {
+(function($, document) {
+  "use strict";
 
   /*
   Returns the position of the caret.
@@ -28,7 +29,7 @@
     // return 0 when in IE and the textarea is empty
     var range = document.selection.createRange();
 
-    if (!range || range.parentElement() != element)
+    if (!range || range.parentElement() !== element)
       return 0;
 
     // normalize the windows newlines
@@ -92,7 +93,7 @@
     }
 
     return this;
-  }
+  };
 
   /*
   This method accepts calls of the following forms:
@@ -115,4 +116,4 @@
       return getCaretPosition.apply(this, []);
     }
   };
-})(jQuery);
+})(jQuery, document);
